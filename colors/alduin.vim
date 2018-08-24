@@ -156,7 +156,7 @@ highlight Visual           guifg=#dfdfbf  guibg=#875f5f  gui=NONE       ctermfg=
 highlight Question         guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
 highlight Search           guifg=#af5f00  guibg=NONE     gui=reverse    ctermfg=130   ctermbg=NONE  cterm=reverse
 highlight MatchParen       guifg=#777777  guibg=NONE     gui=reverse    ctermfg=102   ctermbg=NONE  cterm=reverse
-highlight Error            guifg=#9f4f4f  guibg=#242424  gui=reverse    ctermfg=131   ctermbg=233   cterm=reverse
+highlight Error            guifg=#9f4f4f  guibg=#303030  gui=reverse    ctermfg=131   ctermbg=233   cterm=reverse
 highlight ErrorMsg         guifg=#9f4f4f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 highlight WarningMsg       guifg=#9f4f4f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 highlight Directory        guifg=#9f4f4f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
@@ -195,12 +195,12 @@ highlight PmenuThumb      guifg=#464646  guibg=#464646  gui=NONE    ctermfg=235 
 highlight TabLine         guifg=#6c6c6c  guibg=#464646  gui=NONE    ctermfg=242   ctermbg=235  cterm=NONE
 highlight TabLineSel      guifg=#9e9e9e  guibg=#464646  gui=NONE    ctermfg=247   ctermbg=235  cterm=NONE
 highlight TabLineFill     guifg=#6c6c6c  guibg=#464646  gui=NONE    ctermfg=242   ctermbg=235  cterm=NONE
-highlight CursorLine      guifg=NONE     guibg=#242424  gui=NONE    ctermfg=NONE  ctermbg=233  cterm=NONE
-highlight CursorColumn    guifg=NONE     guibg=#242424  gui=NONE    ctermfg=NONE  ctermbg=233  cterm=NONE
+highlight CursorLine      guifg=NONE     guibg=#303030  gui=NONE    ctermfg=NONE  ctermbg=233  cterm=NONE
+highlight CursorColumn    guifg=NONE     guibg=#303030  gui=NONE    ctermfg=NONE  ctermbg=233  cterm=NONE
 highlight ColorColumn     guifg=NONE     guibg=#464646  gui=NONE    ctermfg=NONE  ctermbg=235  cterm=NONE
-highlight Folded          guifg=#444444  guibg=#242424  gui=NONE    ctermfg=238   ctermbg=233  cterm=NONE
+highlight Folded          guifg=#444444  guibg=#303030  gui=NONE    ctermfg=238   ctermbg=233  cterm=NONE
 highlight VertSplit       guifg=#444444  guibg=#363636  gui=NONE    ctermfg=238   ctermbg=234  cterm=NONE
-highlight LineNr          guifg=#444444  guibg=#242424  gui=NONE    ctermfg=238   ctermbg=233  cterm=NONE
+highlight LineNr          guifg=#444444  guibg=#303030  gui=NONE    ctermfg=238   ctermbg=233  cterm=NONE
 highlight FoldColumn      guifg=#779f9f  guibg=#363636  gui=NONE    ctermfg=109   ctermbg=234  cterm=NONE
 highlight SignColumn      guifg=#77774f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=233  cterm=NONE
 highlight NonText         guifg=#303030  guibg=NONE     gui=NONE    ctermfg=236   ctermbg=NONE cterm=NONE
