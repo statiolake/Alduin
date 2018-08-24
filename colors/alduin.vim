@@ -95,26 +95,6 @@ endif
 
 let g:colors_name="alduin"
 
-if !exists( "g:alduin_Shout_Aura_Whisper")
-    let g:alduin_Shout_Aura_Whisper = 0
-endif
-
-if !exists( "g:alduin_Shout_Fire_Breath" )
-    let g:alduin_Shout_Fire_Breath = 0
-endif
-
-if !exists("g:alduin_Shout_Animal_Allegiance")
-    let g:alduin_Shout_Animal_Allegiance = 0
-endif
-
-if !exists("g:alduin_Shout_Dragon_Aspect" )
-    let g:alduin_Shout_Dragon_Aspect = 0
-endif
-
-if !exists( "g:alduin_Shout_Become_Ethereal" )
-    let g:alduin_Shout_Become_Ethereal = 0
-endif
-
 " COMMON COLORS AND SETTINGS
 highlight PreProc          guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
 highlight Function         guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
@@ -181,7 +161,7 @@ highlight SpellLocal       guifg=#5f875f  guibg=NONE     gui=undercurl  ctermfg=
 highlight SpellCap         guifg=#87afff  guibg=NONE     gui=undercurl  ctermfg=111   ctermbg=NONE  cterm=undercurl
 highlight SpellRare        guifg=#d75f00  guibg=NONE     gui=undercurl  ctermfg=166   ctermbg=NONE  cterm=undercurl
 
-" ALDUIN DEFAULT UI:
+"ALDUIN DEFAULT UI
 highlight Normal          guifg=#ffffcf  guibg=#363636  gui=NONE    ctermfg=187   ctermbg=234  cterm=NONE
 highlight String          guifg=#ffdf87  guibg=#464646  gui=NONE    ctermfg=222   ctermbg=235  cterm=NONE
 
