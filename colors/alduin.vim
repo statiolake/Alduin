@@ -250,6 +250,12 @@ endif
 hi! link vimSep Normal
 hi! link vimParenSep Normal
 
+" typescript
+hi! link typescriptParens Normal
+hi! link typescriptBraces Normal
+hi! link typescriptEndColons Normal
+hi! link typescriptLogicSymbols Normal
+
 "LICENSE
 "Copyright (c) 2018 Alessandro Yorba
 "
