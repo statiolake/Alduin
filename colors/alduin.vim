@@ -245,6 +245,11 @@ if g:alduin_Shout_Fire_Breath
 	highlight Search guifg=#dfdfaf guibg=#5f0000 gui=NONE ctermfg=187 ctermbg=52 cterm=NONE
 endif
 
+" Fix some delimiter colorization
+" vimscript
+hi! link vimSep Normal
+hi! link vimParenSep Normal
+
 "LICENSE
 "Copyright (c) 2018 Alessandro Yorba
 "
