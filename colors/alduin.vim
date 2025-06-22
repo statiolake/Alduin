@@ -223,6 +223,21 @@ highlight! TelescopeResultsStruct guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 
 highlight! TelescopeResultsTitle guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
 highlight! TelescopeResultsVariable guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
 
+"NVIM-SCROLLBAR HIGHLIGHTING
+highlight! ScrollbarHandle guifg=#121212 guibg=#121212 gui=NONE ctermfg=233 ctermbg=233 cterm=NONE
+highlight! ScrollbarSearchHandle guifg=#878787 guibg=#121212 gui=NONE ctermfg=102 ctermbg=233 cterm=NONE
+highlight! ScrollbarErrorHandle guifg=#f44747 guibg=#121212 gui=NONE ctermfg=203 ctermbg=233 cterm=NONE
+highlight! ScrollbarWarnHandle guifg=#eecc77 guibg=#121212 gui=NONE ctermfg=222 ctermbg=233 cterm=NONE
+highlight! ScrollbarInfoHandle guifg=#9ad29a guibg=#121212 gui=NONE ctermfg=114 ctermbg=233 cterm=NONE
+highlight! ScrollbarHintHandle guifg=#7a9ad2 guibg=#121212 gui=NONE ctermfg=110 ctermbg=233 cterm=NONE
+highlight! ScrollbarMiscHandle guifg=#dfdfaf guibg=#121212 gui=NONE ctermfg=187 ctermbg=233 cterm=NONE
+highlight! ScrollbarSearch guifg=#878787 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+highlight! ScrollbarError guifg=#f44747 guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
+highlight! ScrollbarWarn guifg=#eecc77 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
+highlight! ScrollbarInfo guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
+highlight! ScrollbarHint guifg=#7a9ad2 guibg=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
+highlight! ScrollbarMisc guifg=#dfdfaf guibg=NONE gui=NONE ctermfg=187 ctermbg=NONE cterm=NONE
+
 "DEFAULT
 if 1
 	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
