@@ -238,6 +238,11 @@ highlight! ScrollbarInfo guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=N
 highlight! ScrollbarHint guifg=#7a9ad2 guibg=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
 highlight! ScrollbarMisc guifg=#dfdfaf guibg=NONE gui=NONE ctermfg=187 ctermbg=NONE cterm=NONE
 
+"VIM SYNTAX HIGHLIGHTING IMPROVEMENTS
+highlight! link vimSep Operator
+highlight! link vimOperParen Operator
+highlight! link vimParenSep Operator
+
 "DEFAULT
 if 1
 	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
