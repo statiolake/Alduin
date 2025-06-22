@@ -263,6 +263,25 @@ highlight! ConflictMarkerOurs guifg=NONE guibg=#2e5049 gui=NONE ctermfg=NONE cte
 highlight! ConflictMarkerTheirs guifg=NONE guibg=#344f69 gui=NONE ctermfg=NONE ctermbg=17 cterm=NONE
 highlight! ConflictMarkerEnd guifg=NONE guibg=#2f628e gui=NONE ctermfg=NONE ctermbg=25 cterm=NONE
 
+"LSP DIAGNOSTIC HIGHLIGHTING
+highlight! DefaultReference guifg=NONE guibg=#333333 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+highlight! DefaultErrorLine guifg=NONE guibg=#260b0b gui=NONE ctermfg=NONE ctermbg=52 cterm=NONE
+highlight! DefaultWarnLine guifg=NONE guibg=#262113 gui=NONE ctermfg=NONE ctermbg=3 cterm=NONE
+highlight! DefaultInfoLine guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+highlight! DefaultHintLine guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+highlight! DefaultError guifg=NONE guibg=#260b0b gui=undercurl guisp=#f44747 ctermfg=NONE ctermbg=52 cterm=undercurl
+highlight! DefaultWarn guifg=NONE guibg=#262113 gui=undercurl guisp=#eecc77 ctermfg=NONE ctermbg=3 cterm=undercurl
+highlight! DefaultInfo guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
+highlight! DefaultHint guifg=NONE guibg=NONE gui=undercurl guisp=#7a9ad2 ctermfg=NONE ctermbg=NONE cterm=undercurl
+highlight! DefaultErrorText guifg=#f44747 guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
+highlight! DefaultWarnText guifg=#eecc77 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
+highlight! DefaultInfoText guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
+highlight! DefaultHintText guifg=#7a9ad2 guibg=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
+highlight! DefaultErrorTextOnErrorLine guifg=#f44747 guibg=#260b0b gui=NONE ctermfg=203 ctermbg=52 cterm=NONE
+highlight! DefaultWarnTextOnWarnLine guifg=#eecc77 guibg=#262113 gui=NONE ctermfg=222 ctermbg=3 cterm=NONE
+highlight! DefaultInfoTextOnInfoLine guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
+highlight! DefaultHintTextOnHintLine guifg=#7a9ad2 guibg=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
+
 "DEFAULT
 if 1
 	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
