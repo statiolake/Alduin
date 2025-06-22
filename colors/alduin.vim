@@ -177,6 +177,9 @@ highlight! link ModeMsg Soft_Yellow
 
 highlight! link Conceal NonText
 
+"CLEAR MARKDOWN ERROR
+highlight! markdownError NONE
+
 "DEFAULT
 if 1
 	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
