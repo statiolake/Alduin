@@ -254,6 +254,9 @@ highlight! link typescriptLogicSymbols Operator
 highlight! link matlabSemicolon Operator
 highlight! link matlabDelimiter Normal
 
+"VIM-ILLUMINATE INTEGRATION
+highlight! link IlluminatedWordText Search
+
 "DEFAULT
 if 1
 	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
