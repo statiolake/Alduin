@@ -201,6 +201,28 @@ highlight! link CmpItemKindMethod Function
 highlight! link CmpItemKindKeyword Keyword
 highlight! link CmpItemKindProperty Variable
 
+"TELESCOPE.NVIM HIGHLIGHTING
+highlight! TelescopeResultsNormal guifg=#585858 guibg=#1c1c1c gui=NONE ctermfg=240 ctermbg=234 cterm=NONE
+highlight! TelescopeMatching guifg=white guibg=NONE gui=bold ctermfg=white ctermbg=NONE cterm=bold
+highlight! TelescopeResultsClass guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsComment guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsConstant guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsDiffAdd guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsDiffChange guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsDiffDelete guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsDiffUntracked guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsField guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsFunction guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsIdentifier guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsLineNr guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsMethod guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsNumber guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsOperator guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsSpecialComment guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsStruct guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsTitle guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+highlight! TelescopeResultsVariable guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
+
 "DEFAULT
 if 1
 	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
