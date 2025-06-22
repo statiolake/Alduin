@@ -184,7 +184,12 @@ highlight! link Substitute IncSearch
 
 highlight! DenitePrompt guifg=#e08080 guibg=NONE gui=NONE ctermfg=174 ctermbg=NONE cterm=NONE
 
-"TREESITTER DIFF COLORS
+"TREESITTER HIGHLIGHTING
+highlight! link @variable Variable
+highlight! link @function.macro Function
+highlight! link @text.environment Function
+highlight! link @text.environment.name Special
+highlight! link @text.math String
 highlight! link @diff.plus DiffAdd
 highlight! link @diff.minus DiffDelete
 
