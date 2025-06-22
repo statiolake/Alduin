@@ -162,6 +162,7 @@ highlight! link diffChanged Dark_Cyan_Reverse
 highlight! link Statement Grey
 highlight! link Label Grey
 highlight! link Operator Grey
+highlight! link Delimiter Grey
 highlight! link Conditional Grey
 highlight! link htmlStatement Grey
 highlight! link Repeat Grey
