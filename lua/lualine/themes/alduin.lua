@@ -1,4 +1,5 @@
 -- Copyright (c) 2020 Alessandro Yorba
+-- Copyright (c) 2025 statiolake
 -- MIT License
 -- Alduin Lualine Theme
 
