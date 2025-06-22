@@ -272,24 +272,35 @@ highlight! ConflictMarkerOurs guifg=NONE guibg=#2e5049 gui=NONE ctermfg=NONE cte
 highlight! ConflictMarkerTheirs guifg=NONE guibg=#344f69 gui=NONE ctermfg=NONE ctermbg=17 cterm=NONE
 highlight! ConflictMarkerEnd guifg=NONE guibg=#2f628e gui=NONE ctermfg=NONE ctermbg=25 cterm=NONE
 
-"LSP DIAGNOSTIC HIGHLIGHTING
-highlight! DefaultReference guifg=NONE guibg=#333333 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
-highlight! DefaultErrorLine guifg=NONE guibg=#260b0b gui=NONE ctermfg=NONE ctermbg=52 cterm=NONE
-highlight! DefaultWarnLine guifg=NONE guibg=#262113 gui=NONE ctermfg=NONE ctermbg=3 cterm=NONE
-highlight! DefaultInfoLine guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-highlight! DefaultHintLine guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-highlight! DefaultError guifg=NONE guibg=#260b0b gui=undercurl guisp=#f44747 ctermfg=NONE ctermbg=52 cterm=undercurl
-highlight! DefaultWarn guifg=NONE guibg=#262113 gui=undercurl guisp=#eecc77 ctermfg=NONE ctermbg=3 cterm=undercurl
-highlight! DefaultInfo guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
-highlight! DefaultHint guifg=NONE guibg=NONE gui=undercurl guisp=#7a9ad2 ctermfg=NONE ctermbg=NONE cterm=undercurl
-highlight! DefaultErrorText guifg=#f44747 guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
-highlight! DefaultWarnText guifg=#eecc77 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
-highlight! DefaultInfoText guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
-highlight! DefaultHintText guifg=#7a9ad2 guibg=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
-highlight! DefaultErrorTextOnErrorLine guifg=#f44747 guibg=#260b0b gui=NONE ctermfg=203 ctermbg=52 cterm=NONE
-highlight! DefaultWarnTextOnWarnLine guifg=#eecc77 guibg=#262113 gui=NONE ctermfg=222 ctermbg=3 cterm=NONE
-highlight! DefaultInfoTextOnInfoLine guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
-highlight! DefaultHintTextOnHintLine guifg=#7a9ad2 guibg=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
+"COC.NVIM LSP HIGHLIGHTING
+highlight! CocErrorSign guifg=#f44747 guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
+highlight! CocWarningSign guifg=#eecc77 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
+highlight! CocInfoSign guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
+highlight! CocHintSign guifg=#7a9ad2 guibg=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
+highlight! CocErrorHighlight guifg=NONE guibg=#260b0b gui=undercurl guisp=#f44747 ctermfg=NONE ctermbg=52 cterm=undercurl
+highlight! CocWarningHighlight guifg=NONE guibg=#262113 gui=undercurl guisp=#eecc77 ctermfg=NONE ctermbg=3 cterm=undercurl
+highlight! CocInfoHighlight guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
+highlight! CocHintHighlight guifg=NONE guibg=NONE gui=undercurl guisp=#7a9ad2 ctermfg=NONE ctermbg=NONE cterm=undercurl
+highlight! CocHighlightText guifg=NONE guibg=#333333 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+highlight! CocCodeLens guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
+
+"BUILT-IN LSP HIGHLIGHTING
+highlight! DiagnosticError guifg=#f44747 guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
+highlight! DiagnosticWarn guifg=#eecc77 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
+highlight! DiagnosticInfo guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
+highlight! DiagnosticHint guifg=#7a9ad2 guibg=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
+highlight! DiagnosticSignError guifg=#f44747 guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
+highlight! DiagnosticSignWarn guifg=#eecc77 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
+highlight! DiagnosticSignInfo guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
+highlight! DiagnosticSignHint guifg=#7a9ad2 guibg=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
+highlight! DiagnosticUnderlineError guifg=NONE guibg=#260b0b gui=undercurl guisp=#f44747 ctermfg=NONE ctermbg=52 cterm=undercurl
+highlight! DiagnosticUnderlineWarn guifg=NONE guibg=#262113 gui=undercurl guisp=#eecc77 ctermfg=NONE ctermbg=3 cterm=undercurl
+highlight! DiagnosticUnderlineInfo guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
+highlight! DiagnosticUnderlineHint guifg=NONE guibg=NONE gui=undercurl guisp=#7a9ad2 ctermfg=NONE ctermbg=NONE cterm=undercurl
+highlight! LspReferenceText guifg=NONE guibg=#333333 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+highlight! LspReferenceRead guifg=NONE guibg=#333333 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+highlight! LspReferenceWrite guifg=NONE guibg=#333333 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+highlight! LspCodeLens guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
 
 "SIGNIFY PLUGIN SUPPORT
 highlight! SignifySignAdd guifg=#008787 guibg=NONE gui=NONE ctermfg=30 ctermbg=NONE cterm=NONE
