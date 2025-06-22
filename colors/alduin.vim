@@ -188,6 +188,19 @@ highlight! DenitePrompt guifg=#e08080 guibg=NONE gui=NONE ctermfg=174 ctermbg=NO
 highlight! link @diff.plus DiffAdd
 highlight! link @diff.minus DiffDelete
 
+"NVIM-CMP HIGHLIGHTING
+highlight! CmpItemAbbrDeprecated guifg=#444444 guibg=NONE gui=strikethrough ctermfg=238 ctermbg=NONE cterm=strikethrough
+highlight! link CmpItemAbbrMatch Special
+highlight! link CmpItemAbbrMatchFuzzy Special
+highlight! CmpItemKind guifg=#af5f5f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
+highlight! CmpItemKindText guifg=#444444 guibg=NONE gui=NONE ctermfg=238 ctermbg=NONE cterm=NONE
+highlight! link CmpItemKindVariable Variable
+highlight! link CmpItemKindInterface Type
+highlight! link CmpItemKindFunction Function
+highlight! link CmpItemKindMethod Function
+highlight! link CmpItemKindKeyword Keyword
+highlight! link CmpItemKindProperty Variable
+
 "DEFAULT
 if 1
 	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
