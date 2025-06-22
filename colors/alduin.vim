@@ -54,6 +54,11 @@ if !exists( "g:alduin_Shout_Become_Ethereal" )
 	let g:alduin_Shout_Become_Ethereal = 0
 endif
 
+"TRANSPARENT BACKGROUND
+if !exists( "g:alduin_Shout_Clear_Skies" )
+	let g:alduin_Shout_Clear_Skies = 0
+endif
+
 "TERMINAL COLORS
 let g:terminal_ansi_colors = [
 	\ '#1c1c1c',
