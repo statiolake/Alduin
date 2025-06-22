@@ -263,7 +263,7 @@ highlight! link matlabSemicolon Operator
 highlight! link matlabDelimiter Normal
 
 "VIM-ILLUMINATE INTEGRATION
-highlight! link IlluminatedWordText DefaultReference
+highlight! link IlluminatedWordText LspReferenceText
 
 "CONFLICT-MARKER PLUGIN SUPPORT
 let g:conflict_marker_highlight_group = ''
