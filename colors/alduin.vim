@@ -255,7 +255,7 @@ highlight! link matlabSemicolon Operator
 highlight! link matlabDelimiter Normal
 
 "VIM-ILLUMINATE INTEGRATION
-highlight! link IlluminatedWordText Search
+highlight! link IlluminatedWordText DefaultReference
 
 "CONFLICT-MARKER PLUGIN SUPPORT
 highlight! ConflictMarkerBegin guifg=NONE guibg=#2f7366 gui=NONE ctermfg=NONE ctermbg=23 cterm=NONE
