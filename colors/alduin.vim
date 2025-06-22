@@ -454,6 +454,16 @@ if g:alduin_Shout_Fire_Breath
 	highlight Search guifg=#dfdfaf guibg=#5f0000 gui=NONE ctermfg=187 ctermbg=52 cterm=NONE
 endif
 
+"TRANSPARENT BACKGROUND
+if g:alduin_Shout_Clear_Skies
+	highlight Normal guifg=#dfdfaf guibg=NONE gui=NONE ctermfg=187 ctermbg=NONE cterm=NONE
+	highlight SignColumn guifg=#87875f guibg=NONE gui=NONE ctermfg=101 ctermbg=NONE cterm=NONE
+	highlight CursorLine guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+	highlight ColorColumn guifg=NONE guibg=#333333 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+	highlight String guifg=#ffdf87 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
+	highlight Folded guifg=#444444 guibg=NONE gui=NONE ctermfg=238 ctermbg=NONE cterm=NONE
+endif
+
 "LICENSE
 "Copyright (c) 2020 Alessandro Yorba
 "
