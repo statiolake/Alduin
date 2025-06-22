@@ -243,6 +243,13 @@ highlight! link vimSep Operator
 highlight! link vimOperParen Operator
 highlight! link vimParenSep Operator
 
+"TYPESCRIPT SYNTAX HIGHLIGHTING IMPROVEMENTS
+highlight! link typescriptGlobalObjects Type
+highlight! link typescriptParens Operator
+highlight! link typescriptBraces Operator
+highlight! link typescriptEndColons Operator
+highlight! link typescriptLogicSymbols Operator
+
 "DEFAULT
 if 1
 	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
