@@ -282,6 +282,16 @@ highlight! DefaultWarnTextOnWarnLine guifg=#eecc77 guibg=#262113 gui=NONE ctermf
 highlight! DefaultInfoTextOnInfoLine guifg=#9ad29a guibg=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
 highlight! DefaultHintTextOnHintLine guifg=#7a9ad2 guibg=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
 
+"SIGNIFY PLUGIN SUPPORT
+highlight! SignifySignAdd guifg=#008787 guibg=NONE gui=NONE ctermfg=30 ctermbg=NONE cterm=NONE
+highlight! SignifySignChange guifg=#005f5f guibg=NONE gui=NONE ctermfg=23 ctermbg=NONE cterm=NONE
+highlight! SignifySignDelete guifg=#af5f5f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
+
+"GITSIGNS.NVIM SUPPORT
+highlight! GitSignsAdd guifg=#008787 guibg=NONE gui=NONE ctermfg=30 ctermbg=NONE cterm=NONE
+highlight! GitSignsChange guifg=#005f5f guibg=NONE gui=NONE ctermfg=23 ctermbg=NONE cterm=NONE
+highlight! GitSignsDelete guifg=#af5f5f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
+
 "DEFAULT
 if 1
 	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
