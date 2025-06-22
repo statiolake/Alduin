@@ -266,6 +266,7 @@ highlight! link matlabDelimiter Normal
 highlight! link IlluminatedWordText DefaultReference
 
 "CONFLICT-MARKER PLUGIN SUPPORT
+let g:conflict_marker_highlight_group = ''
 highlight! ConflictMarkerBegin guifg=NONE guibg=#2f7366 gui=NONE ctermfg=NONE ctermbg=23 cterm=NONE
 highlight! ConflictMarkerOurs guifg=NONE guibg=#2e5049 gui=NONE ctermfg=NONE ctermbg=22 cterm=NONE
 highlight! ConflictMarkerTheirs guifg=NONE guibg=#344f69 gui=NONE ctermfg=NONE ctermbg=17 cterm=NONE
