@@ -182,6 +182,8 @@ highlight! markdownError NONE
 
 highlight! link Substitute IncSearch
 
+highlight! DenitePrompt guifg=#e08080 guibg=NONE gui=NONE ctermfg=174 ctermbg=NONE cterm=NONE
+
 "DEFAULT
 if 1
 	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
