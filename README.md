@@ -2,49 +2,107 @@
 
 ![screenshot](https://user-images.githubusercontent.com/24765272/143597279-d482203d-2e7a-44e7-a0bf-ad47a9e3e38d.png)
 
-:space_invader: Set Up
-------
+:dragon: Alduin - World-Eater Colorscheme
+==========================================
 
-###### [Dark Grey](https://user-images.githubusercontent.com/11221489/33703680-040b8230-dade-11e7-80aa-c7bd37e2cdc1.png)
+A dark colorscheme inspired by The Elder Scrolls V: Skyrim's legendary dragon Alduin the World-Eater. Named options are based on Skyrim's Dragon Shouts (Thu'um) for an immersive experience.
+
+:space_invader: Setup
+--------------------
+
+###### Basic Installation
 ```VimL
 colorscheme alduin
 ```
 
-:milky_way: Change Background Colors
-------
+###### With Lualine Theme (Neovim + Lua)
+```lua
+require('lualine').setup {
+  options = {
+    theme = 'alduin'
+  }
+}
+```
 
-###### [Almost Black Background]()
+:milky_way: Background Variants (Dragon Shouts)
+-----------------------------------------------
+
+###### Default Dark Grey Background
+```VimL
+colorscheme alduin
+```
+
+###### Almost Black Background - Dragon Aspect
 ```VimL
 let g:alduin_Shout_Dragon_Aspect = 1
 colorscheme alduin 
 ```
 
-###### [Black Background]()
+###### Black Background - Become Ethereal
 ```VimL
 let g:alduin_Shout_Become_Ethereal = 1
 colorscheme alduin 
 ```
 
-:squid:	Other Settings
-------
-###### [Adds Deep Red Color for Special Highlighting Groups]()
+###### Transparent Background - Clear Skies :new:
+```VimL
+let g:alduin_Shout_Clear_Skies = 1
+colorscheme alduin 
+```
+
+:fire: Special Effects (Dragon Shouts)
+--------------------------------------
+
+###### Deep Red Colors - Fire Breath
 ```VimL
 let g:alduin_Shout_Fire_Breath = 1
 colorscheme alduin
 ```
 
-###### [Removes Block Matchparens setting and adds an underline]()
+###### Underlined MatchParen - Aura Whisper
 ```VimL
-"let g:alduin_Shout_Aura_Whisper = 1
-"colorscheme alduin
+let g:alduin_Shout_Aura_Whisper = 1
+colorscheme alduin
 ```
+
+###### Transparent String Backgrounds - Animal Allegiance
+```VimL
+let g:alduin_Shout_Animal_Allegiance = 1
+colorscheme alduin
+```
+
+:gear: Plugin Support
+--------------------
+
+Alduin provides comprehensive support for modern Neovim plugins:
+
+- **LSP**: Built-in LSP diagnostics and references
+- **Coc.nvim**: Complete integration with signs, highlights, and virtual text
+- **Telescope.nvim**: Optimized picker highlighting with neutralized syntax colors
+- **nvim-cmp**: Full completion menu styling
+- **Treesitter**: Enhanced syntax highlighting with @-prefixed groups
+- **Git plugins**: Signify, GitSigns.nvim with conditional reverse highlighting
+- **Scrollbar**: nvim-scrollbar with diagnostic indicators
+- **Conflict resolution**: vim-conflict-marker plugin support
+- **Word highlighting**: vim-illuminate integration
+- **Language support**: Enhanced TypeScript, MATLAB, and Vimscript highlighting
 
 :crescent_moon: Dev Build
 ----------------------------
 development version [here](https://github.com/AlessandroYorba/Alduin/tree/nightly)
 
+:scroll: License & Copyright
+--------------------------
+```
+Copyright (c) 2020 Alessandro Yorba
+Copyright (c) 2025 statiolake
+MIT License
+```
+
 :octocat: Special Thanks
 -----------------
+[Alessandro Yorba for the original Alduin colorscheme](https://github.com/AlessandroYorba)<br>
+[statiolake for 2025 enhancements and plugin integrations](https://github.com/statiolake)<br>
 [NWang for Design Inspiration](https://github.com/nyngwang)<br>
 [Alduin Airline Theme by Danilo Augusto](https://github.com/danilo-augusto)<br>
 [Arch Linux Package by George Angelopoulos](https://github.com/lathan)<br>
