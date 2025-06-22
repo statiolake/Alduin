@@ -250,6 +250,10 @@ highlight! link typescriptBraces Operator
 highlight! link typescriptEndColons Operator
 highlight! link typescriptLogicSymbols Operator
 
+"MATLAB SYNTAX HIGHLIGHTING IMPROVEMENTS
+highlight! link matlabSemicolon Operator
+highlight! link matlabDelimiter Normal
+
 "DEFAULT
 if 1
 	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
