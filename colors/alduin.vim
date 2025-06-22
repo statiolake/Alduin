@@ -182,7 +182,7 @@ highlight! link DiffText Dark_Green_Reverse
 highlight! link ModeMsg Soft_Yellow
 
 highlight! link Conceal NonText
-highlight! NormalFloat guifg=#585858 guibg=#1c1c1c gui=NONE ctermfg=240 ctermbg=234 cterm=NONE
+highlight! link NormalFloat Pmenu
 
 "CLEAR MARKDOWN ERROR
 highlight! markdownError NONE
