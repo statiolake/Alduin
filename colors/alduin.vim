@@ -257,6 +257,12 @@ highlight! link matlabDelimiter Normal
 "VIM-ILLUMINATE INTEGRATION
 highlight! link IlluminatedWordText Search
 
+"CONFLICT-MARKER PLUGIN SUPPORT
+highlight! ConflictMarkerBegin guifg=NONE guibg=#2f7366 gui=NONE ctermfg=NONE ctermbg=23 cterm=NONE
+highlight! ConflictMarkerOurs guifg=NONE guibg=#2e5049 gui=NONE ctermfg=NONE ctermbg=22 cterm=NONE
+highlight! ConflictMarkerTheirs guifg=NONE guibg=#344f69 gui=NONE ctermfg=NONE ctermbg=17 cterm=NONE
+highlight! ConflictMarkerEnd guifg=NONE guibg=#2f628e gui=NONE ctermfg=NONE ctermbg=25 cterm=NONE
+
 "DEFAULT
 if 1
 	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
