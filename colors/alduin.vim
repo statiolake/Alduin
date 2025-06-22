@@ -166,7 +166,7 @@ highlight! link netrwExe Grey
 
 highlight! link Comment Green
 
-highlight! link SpecialComment Green_Reverse
+highlight! SpecialComment guifg=#afaf7c guibg=NONE gui=NONE ctermfg=144 ctermbg=NONE cterm=NONE
 highlight! link vimCommentTitle Green_Reverse
 
 highlight! link DiffAdd Dark_Green_Reverse
