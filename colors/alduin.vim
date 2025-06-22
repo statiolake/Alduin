@@ -217,7 +217,7 @@ highlight! link CmpItemKindProperty Variable
 "Neutralize all colors to prevent readability issues where selected entries
 "have the same background and foreground colors, making labels unreadable.
 "TelescopeSelection doesn't respect guifg, so we must neutralize all syntax elements.
-highlight! link TelescopeResultsNormal Pmenu
+highlight! TelescopeResultsNormal guifg=#585858 guibg=#1c1c1c gui=NONE ctermfg=240 ctermbg=234 cterm=NONE
 highlight! TelescopeMatching guifg=white guibg=NONE gui=bold ctermfg=white ctermbg=NONE cterm=bold
 highlight! TelescopeResultsClass guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
 highlight! TelescopeResultsComment guifg=#9e9e9e guibg=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE
