@@ -172,7 +172,6 @@ highlight! link vimCommentTitle Green_Reverse
 highlight! link DiffAdd Dark_Green_Reverse
 highlight! link diffAdded Dark_Green_Reverse
 highlight! link DiffText Dark_Green_Reverse
-highlight! link Todo Dark_Orange_Reverse
 
 highlight! link ModeMsg Soft_Yellow
 
@@ -302,6 +301,8 @@ endif
 "REMOVE BLOCK MATCHPARENS - ADDS UNDERLINE
 if g:alduin_Shout_Aura_Whisper
 	highlight MatchParen guifg=#eeeeee guibg=#1c1c1c gui=underline ctermfg=255 ctermbg=234 cterm=underline
+else
+	highlight MatchParen guifg=NONE guibg=NONE gui=underline guisp=#f5f5c0 ctermfg=NONE ctermbg=NONE cterm=underline
 endif
 
 "DEEP RED COLOR
